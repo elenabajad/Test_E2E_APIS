@@ -1,7 +1,0 @@
-CONCLUSIÓN:
------------
-Este proyecto demuestra cómo automatizar pruebas REST con Cypress para validar el registro y autenticación de usuarios en DemoBlaze.
-
-- La API responde con código HTTP 200 en todos los casos, incluso cuando hay errores lógicos, lo que exige una validación basada en el contenido del cuerpo de la respuesta.
-- La automatización con Cypress permite validar estos servicios de forma rápida, confiable y sin necesidad de interfaz gráfica, haciéndola ideal para integrar en flujos de CI/CD o pruebas de regresión continua.
-- Estas pruebas representan una base sólida para ampliar la cobertura automatizada hacia otros servicios REST que pueda ofrecer DemoBlaze.
