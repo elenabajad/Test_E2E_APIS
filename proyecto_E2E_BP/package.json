@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_e2e_bp",
+  "version": "1.0.0",
+  "description": "Practica_E2E",
+  "license": "ISC",
+  "author": "Elena Bajaña",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test_funcional": "cypress run --spec cypress/e2e/Test_Practice.cy.js --browser edge"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "cypress": "^14.5.1",
+    "cypress-mochawesome-reporter": "^4.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
