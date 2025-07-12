@@ -21,10 +21,6 @@ PRE-REQUISITOS:
 - Node.js instalado (versión recomendada: 18+)
 - Cypress instalado globalmente o como dependencia local
 
-INSTALACIÓN:
-------------
-1. Extraer el archivo .zip para la ejecución.
-
 EJECUCIÓN DE LA PRUEBA:
 ------------------------
 Desde la terminal, ejecuta:
